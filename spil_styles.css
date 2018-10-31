@@ -1,0 +1,339 @@
+#screen {
+    position: relative;
+    width: 56.25vw;
+    height: 100vw;
+}
+
+/*#game {
+    position: relative;
+}
+
+#game_elements {
+    position: relative;
+}*/
+/*----------------------START-----------------*/
+#start {
+    background-image: url(produktion/svg/forside.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 50vw;
+    width: 56.25vw;
+}
+
+#play_knap {
+    background-image: url(produktion/svg/play_knap.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 35vw;
+    width: 35vw;
+    top: 15vw;
+    left: -4vw;
+}
+
+#forside_knap_music {
+    background-image: url(produktion/svg/forside_knap_music.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 5vw;
+    width: 5vw;
+    top: 40vw;
+    left: 15vw;
+}
+
+#forside_knap_setting {
+    background-image: url(produktion/svg/forside_knap_setting.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 5vw;
+    width: 5vw;
+    top: 40vw;
+    left: 7vw;
+}
+
+#forside_tekst {
+    background-image: url(produktion/svg/forside_tekst.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 20vw;
+    width: 25vw;
+    top: 14vw;
+    left: 1vw;
+
+}
+
+/*----------------SPILLEREGLER---------------*/
+
+/*-------------SIDE 1---------------*/
+#side_1 {
+    background-image: url(produktion/svg/side_1.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 50vw;
+    width: 56.25vw;
+    display: none;
+}
+
+#tekst_oh_no {
+    background-image: url(produktion/svg/tekst_oh_no.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 10vw;
+    width: 17vw;
+    top: 11vw;
+    left: 5.5vw;
+}
+
+#tekst_udraabstegn {
+    background-image: url(produktion/svg/tekst_udraabstegn.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 14vw;
+    width: 23vw;
+    top: 7vw;
+    left: 2vw;
+    transform: rotate(8deg);
+
+}
+
+#tekst_acute_heartbreak {
+    background-image: url(produktion/svg/tekst_acute_heartbreak.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 10vw;
+    width: 16vw;
+    top: 20.5vw;
+    left: 6.2vw;
+}
+
+#tap_p1 {
+    background-image: url(produktion/svg/tekst_tap_to_continue.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 2vw;
+    width: 12vw;
+    top: 38vw;
+    left: 8vw;
+
+}
+
+/*------------SIDE 2--------------*/
+#side_2 {
+    background-image: url(produktion/svg/side_2.svg);
+    height: 56.25vw;
+    width: 50vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: none;
+
+}
+
+#tap_p2 {
+    background-image: url(produktion/svg/tekst_tap_to_continue.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 2vw;
+    width: 12vw;
+    top: 51vw;
+    left: 10vw;
+}
+
+/*---------------SIDE 3-----------*/
+#side_3 {
+    background-image: url(produktion/svg/side_3.svg);
+    height: 56.25vw;
+    width: 50vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: none;
+}
+
+#tap_p3 {
+    background-image: url(produktion/svg/tekst_tap_to_continue.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 2vw;
+    width: 12vw;
+    top: 51vw;
+    left: 10vw;
+}
+
+/*----------SIDE 4 -----------*/
+#side_4 {
+
+    background-image: url(produktion/svg/side_4.svg);
+    height: 56.25vw;
+    width: 50vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: none;
+}
+
+#tap_p4 {
+    background-image: url(produktion/svg/tekst_tap_to_continue.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 2vw;
+    width: 12vw;
+    top: 51vw;
+    left: 10vw;
+}
+
+/*---------------------GAMEPLAY----------------*/
+#game_background {
+    background-image: url(produktion/svg/forside_baggrund.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 50vw;
+    width: 56.25vw;
+    display: none;
+    ;
+}
+
+#hjerte_vred {
+    background-image: url(produktion/svg/hjerte_vred.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 21vw;
+    height: 21vw;
+    top: 20vw;
+    left: 4vw;
+    display: none;
+}
+
+#arm_venstre {
+    background-image: url(produktion/svg/arm_venstre.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 35vw;
+    height: 36vw;
+    top: 35vw;
+    left: -19.5vw;
+    display: none;
+}
+
+#arm_højre {
+    background-image: url(produktion/svg/arm_h%C3%B8jre.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 35vw;
+    height: 35vw;
+    top: 35vw;
+    left: 16vw;
+    display: none;
+
+}
+
+#tekstbox_hoejre {
+    background-image: url(produktion/svg/tekstbox_h%C3%B8jre.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 15vw;
+    height: 15vw;
+    top: 9vw;
+    left: 14.5vw;
+    display: none;
+}
+
+#tekstbox_venstre {
+    background-image: url(produktion/svg/tekstbox_venstre.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 15vw;
+    height: 15vw;
+    top: 9vw;
+    left: -1.5vw;
+    display: none;
+}
+
+/*----------------SETTING------------------*/
+
+
+#settings {
+    background-image: url(produktion/svg/menu_baggrund.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 50vw;
+    width: 56.25vw;
+    display: none;
+}
+
+#menu_music {
+    background-image: url(produktion/svg/menu_music.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    top: 16vw;
+    left: 5vw;
+}
+
+#menu_sound {
+    background-image: url(produktion/svg/menu_sound.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 15vw;
+    height: 15vw;
+    top: 19vw;
+    left: 5vw
+}
+
+#menu_resume {
+    background-image: url(produktion/svg/menu_resume.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 16vw;
+    height: 15vw;
+    top: 22.3vw;
+    left: 5vw
+}
+
+#menu_start_over {
+    background-image: url(produktion/svg/menu_start_over.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 15vw;
+    height: 14vw;
+    top: 25vw;
+    left: 4.95vw
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#start{
+    position: absolute;
+top: 0;
+left: 0;
+background-color: red;
+width: 100vw;
+height: 56.25vw;}
+
+
+.hide{
+display:none;
+}
+
+.fade_in{
+animation-name: fade_in_kf;
+animation-duration:2s;
+animation-iteration-count: 1;
+animtation-direction:reverse;
+animation-fill-mode:both;
+}
+
+
+@keyframes fade_in:kf{
+0%{opacity:0;}
+}
+100%{opcaity:1}*/
